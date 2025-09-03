@@ -1,0 +1,142 @@
+🌍 NGO / Charity Website 🏠 Core Features
+1. Navbar
+1.1 Links: Home | About Us | Our Work | Projects | Donate | Contact
+1.2 Sticky navbar with responsive hamburger menu (Flexbox for alignment: logo left, links right)
+2. Hero Section
+2.1 Full-width banner image with mission statement
+2.2 Call-to-action button (Donate Now / Get Involved)
+3. About Us Section
+3.1 NGO’s vision, mission, and values
+3.2 Team introduction with profile cards (Flex container → equal width cards)
+4. Ongoing Projects / Causes
+4.1 Flex container of project cards with:
+ • Image
+ • Short description
+ • Progress bar (e.g., “70% funded”)
+4.2 “Learn More” button per project
+5. Donation Form (Mock UI)
+5.1 Fields: Name, Email, Donation Amount (radio buttons: $10, $20, $50)
+5.2 JS validation for input fields
+6. Volunteer Signup Form
+6.1 Form with checkboxes for interests (Teaching, Healthcare, Fundraising)
+6.2 Submission confirmation modal
+7. Testimonials / Success Stories Carousel
+7.1 Slider showing people or communities helped by the NGO
+8. Newsletter Subscription (Footer)
+8.1 Email input with JS validation
+8.2 Thank-you alert on submission
+9. Contact Page
+9.1 Contact form with JS validation
+9.2 Google Maps embed (or static placeholder image)
+
+<!-- Pages -->
+Home
+-navigation bar
+-Intro
+-Snippet from about(statistics)
+-Snippet from cause
+-Snippet from donate
+-Snippet from projects
+-Snippet from blog
+-Snippet from gallery
+-Volunteer
+-footer
+About
+-navigation bar
+-Intro
+-year it was established
+-statistics
+-vision 
+-mission
+-core values
+-volunteer
+-footer
+Projects
+-navigation bar
+-Intro
+-images if projects with a short description, progressbar, a call to join the event
+-volunteer
+-footer
+Donate
+-navigation bar
+-Intro
+-donations done by people
+-form to donate
+-footer
+Blog
+-navigation bar
+-Intro
+-latest cases(with learn more)
+-testionies from people and communities helped(with learn more) as a carosel
+-completed projects(with learn more)
+-form to subscribe to the news letter
+-footer
+Gallery
+-navigation bar
+-Intro
+-pictures of events 
+-volunteer
+-footer
+Contact
+-navigation bar
+-Intro
+-form to contact us to ask questions
+-footer
+
+
+#fefefe
+#ffffff
+
+<!-- ICONS -->
+<i class="fa fa-play" aria-hidden="true"></i>
+<i class="fa fa-heart" aria-hidden="true"></i>
+<i class="fa fa-instagram" aria-hidden="true"></i>
+<i class="fa fa-whatsapp" aria-hidden="true"></i>
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+<i class="fa fa-clock-o" aria-hidden="true"></i>
+<i class="fa fa-map-o" aria-hidden="true"></i>
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+<i class="fa fa-phone" aria-hidden="true"></i> 
+<i class="fa fa-envelope-o" aria-hidden="true"></i>
+<i class="fa fa-user-o" aria-hidden="true"></i>
+<i class="fa fa-calendar" aria-hidden="true"></i>
+<i class="fa fa-bars" aria-hidden="true"></i>
+<i class="fa fa-times" aria-hidden="true"></i>
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+<i class="fa fa-angle-left" aria-hidden="true"></i>
+<i class="fa fa-commenting-o" aria-hidden="true"></i>
+
+
+<!-- ROOT SETTINGS -->
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #78d5ef;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}  

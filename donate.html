@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELFARE Donations</title>
+    <link rel="icon" href="images/bg_7.jpg">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo"><a href="index.html">WELFARE</a></div>
+        
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="donate.html">Donate</a>
+                <a href="blog.html">Blog</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <div class="context">
+            <div class="headtext">
+                <span><a href="index.html">Home</a></span>
+                <span class="abt"><a href="donate.html">Donate</a></span>
+                <p><a href="">Donations</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="donations">
+        <div class="donate">
+            <div class="one">
+                <img src="images/person_1.jpg" alt="">
+                    
+                <div class="pin">
+                    <h3>Ivan Jacobson</h3>
+                    <p>Donated 2 hours ago</p>
+                    <h5>Donated <span>$500</span> for</h5>
+                    <h4><a href="donate.html">Children need food</a></h4> 
+                </div>
+            </div>
+            <div class="one">
+                <img src="images/person_2.jpg" alt="">
+
+                <div class="pin">
+                    <h3>John Doe</h3>
+                    <p>Donated 12 hours ago</p>
+                    <h5>Donated <span>$300</span> for</h5>
+                    <h4><a href="donate.html">Communities need water</a></h4> 
+                </div>
+            </div>
+            <div class="one">
+                <img src="images/person_3.jpg" alt="">
+
+                <div class="pin">
+                    <h3>Adam Brooks</h3>
+                    <p>Donated 1 day ago</p>
+                    <h5>Donated <span>$1000</span> for</h5>
+                    <h4><a href="donate.html">Children need education</a></h4> 
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="donate">
+            <div class="one">
+                <img src="images/person_4.jpg" alt="">
+                    
+                <div class="pin">
+                    <h3>Vince Dylan</h3>
+                    <p>Donated 1 week ago</p>
+                    <h5>Donated <span>$1500</span> for</h5>
+                    <h4><a href="donate.html">Children need food</a></h4> 
+                </div>
+            </div>
+            <div class="one">
+                <img src="images/person_5.jpg" alt="">
+
+                <div class="pin">
+                    <h3>Brooks John</h3>
+                    <p>Donated 4 hours ago</p>
+                    <h5>Donated <span>$800</span> for</h5>
+                    <h4><a href="donate.html">Communities need water</a></h4> 
+                </div>
+            </div>
+            <div class="one">
+                <img src="images/person_6.jpg" alt="">
+
+                <div class="pin">
+                    <h3>Adam Brooks</h3>
+                    <p>Donated 5 days ago</p>
+                    <h5>Donated <span>$2000</span> for</h5>
+                    <h4><a href="donate.html">Children need education</a></h4> 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="donate">
+            <div class="one">
+                <img src="images/person_7.jpg" alt="">
+                    
+                <div class="pin">
+                    <h3>James Jacobson</h3>
+                    <p>Donated 2 weeks ago</p>
+                    <h5>Donated <span>$3000</span> for</h5>
+                    <h4><a href="donate.html">Children need food</a></h4> 
+                </div>
+            </div>
+            <div class="one">
+                <img src="images/person_8.jpg" alt="">
+
+                <div class="pin">
+                    <h3>Isaac John</h3>
+                    <p>Donated 12 days ago</p>
+                    <h5>Donated <span>$800</span> for</h5>
+                    <h4><a href="donate.html">Communities need water</a></h4> 
+                </div>
+            </div>
+            <div class="one">
+                <img src="images/person_9.jpg" alt="">
+
+                <div class="pin">
+                    <h3>Samuel Adams</h3>
+                    <p>Donated 1 hour ago</p>
+                    <h5>Donated <span>$600</span> for</h5>
+                    <h4><a href="donate.html">Children need education</a></h4> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="volunteer">
+        <div class="back">
+            <img src="images/image_6.jpg" alt="">
+            
+            <div class="form">
+                <h2>Donations</h2>
+                <form id="myForm" onsubmit="return validateform()">
+                    <p id="errormessage"></p>
+                    <input class="enter" type="text" id="fname" placeholder="Fullname"><br><br>
+                    <input class="enter" type="number" id="age" placeholder="Age"><br><br>
+                    <input class="enter" type="email" id="email" placeholder="Email"><br><br>
+                    <input class="enter" type="number" id="phone" placeholder="Phone Number"><br><br><br>
+
+                    <label>Donation as:</label>
+                    <label><input type="radio" name="as" value="Individual">Individual</label>
+                    <label><input type="radio" name="as" value="Organisation">Organisation</label>
+                    <label><input type="radio" name="as" value="Others">Others</label><br><br>
+
+                    <label>Amount:</label>
+                    <label><input type="radio" name="amount" value="100">$100</label>
+                    <label><input type="radio" name="amount" value="200">$200</label>
+                    <label><input type="radio" name="amount" value="500">$500</label><br>
+                    <label><input type="radio" name="amount" value="1000">$1000</label>
+                    <label><input type="radio" name="amount" value="2000">$2000</label>
+                    <label><input type="radio" name="amount" value="2000">$5000</label>
+                    <label><input type="radio" name="amount" value="5000">Others</label><br><br>
+                    <textarea name="message" id="message" cols="40" rows="1" placeholder="Enter amount"></textarea><br><br>
+                    
+                    <label>Donation to:</label>
+                    <label><input type="checkbox" name="to" value="water">Children need water</label>
+                    <label><input type="checkbox" name="to" value="food">Children need food</label>
+                    <label><input type="checkbox" name="to" value="clothes">Children need clothes</label><br>
+                    <label><input type="checkbox" name="to" value="education">Children need education</label>
+                    <label><input type="checkbox" name="to" value="disaster">Relieve natural disasters</label>
+                    <label><input type="checkbox" name="to" value="Others">Others</label><br><br>
+
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="about">
+                <h1>ABOUT US</h1>
+                <hr>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </h3>
+            </div>
+
+            <div class="blog">
+                <h1>RECENT BLOG</h1>
+                <hr>
+                <div class="part">
+                    <img src="images/image_1.jpg" alt="">
+                    <div class="tet">
+                        <p><a href="blog.html">Even the all-powerful Pointing has no control about</a></p>
+                        <h6>
+                            <span><i class="fa fa-calendar"></i>July 12, 2025</span>
+                            <span><i class="fa fa-user"></i>Admin</span>
+                            <span><i class="fa fa-comment"></i>19</span>
+                        </h6>
+                    </div>
+                </div>
+                <div class="part">
+                    <img src="images/image_2.jpg" alt="">
+                    <div class="tet">
+                        <p><a href="blog.html">Even the all-powerful Pointing has no control about</a></p>
+                        <h6>
+                            <span><i class="fa fa-calendar"></i>July 12, 2025</span>
+                            <span><i class="fa fa-user"></i>Admin</span>
+                            <span><i class="fa fa-comment"></i>23</span>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="links">
+                <h1>SITES</h1>
+                <hr>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="donate.html">Donate</a></p>
+                <p><a href="project.html">Project</a></p>
+                <p><a href="blog.html">Blog</a></p>
+                <p><a href="gallery.html">Gallery</a></p>
+            </div>
+
+            <div class="contact">
+                <h1>Have A Question?</h1>
+                <hr>
+                <p><span><i class="fa fa-map-marker"></i></span>203 Fake St. Mountainville, USA</p>
+                <p><span><i class="fa fa-phone"></i></span>+234 816 1212 459</p>
+                <p><span><i class="fa fa-envelope"></i></span>blessing18020@gmail.com</p>
+                </h3>
+            </div>
+        </div>
+
+        <p class="my">Copyright ©2025 All Rights Reserved | Uwefili Blessing</p>
+    </footer>
+
+    <script src="JavaScript/navbar.js"></script>
+    <script src="JavaScript/donation.js"></script>
+</body>
+</html>
