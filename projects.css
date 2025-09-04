@@ -311,14 +311,15 @@ footer .my{
     padding: 15px;
     border-radius: 5px;
     display: none;
-    width: 25vh;
+    width: 50vh;
+    align-items: center;
   }
 
   .nav-links.show {
     display: flex;
   }
   .nav-links a {
-    font-size: 25px;
+    font-size: 20px;
   }
   .first{
     flex-direction: column;

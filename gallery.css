@@ -30,7 +30,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .container{
-    background-image: url(images/bg_7.jpg);
+    background-image: url(images/bg_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 95vh;
@@ -107,10 +107,13 @@ header .logo a {
 }
 .gallery .image{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .gallery .image img{
-  width: 373px;
-  height: 400px;
+  width: 370px;
+  max-width: 375px;
+  height: 350px;
 }
 
 /* VOLUNTEER    VOLUNTEER   VOLUNTEER */
@@ -266,14 +269,15 @@ footer .my{
     padding: 15px;
     border-radius: 5px;
     display: none;
-    width: 25vh;
+    width: 50vh;
+    align-items: center;
   }
 
   .nav-links.show {
     display: flex;
   }
   .nav-links a {
-    font-size: 25px;
+    font-size: 20px;
   }
   .gallery .image{
     flex-direction: column;
